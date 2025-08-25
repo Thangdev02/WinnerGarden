@@ -18,7 +18,7 @@ const ProductList = () => {
   useEffect(() => {
     const fetchPlants = async () => {
       try {
-        const response = await axios.get("http://localhost:9999/plants")
+        const response = await axios.get("https://winnergarden.onrender.com/api/plants")
         setPlants(response.data)
         setFilteredPlants(response.data)
       } catch (err) {

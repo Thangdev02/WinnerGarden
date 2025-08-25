@@ -17,7 +17,7 @@ const PlantDetail = () => {
 
   const fetchPlant = async () => {
     try {
-      const res = await axios.get(`http://localhost:9999/plants/${id}`)
+      const res = await axios.get(`https://winnergarden.onrender.com/api/plants/${id}`)
       setPlant(res.data)
       setSelectedImage(res.data.image)
     } catch (e) {

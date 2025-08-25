@@ -15,7 +15,7 @@ const PlantsRelated = ({ currentPlant }) => {
   useEffect(() => {
     const fetchPlants = async () => {
       try {
-        const res = await axios.get("http://localhost:9999/plants")
+        const res = await axios.get("https://winnergarden.onrender.com/api/plants")
         const allPlants = res.data
 
         if (currentPlant?.tags?.length > 0) {
