@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'LibertinusSerif';
+  src: url('/assets/fonts/LibertinusSerif-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibertinusSerif';
+  src: url('/assets/fonts/LibertinusSerif-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibertinusSerif';
+  src: url('/assets/fonts/LibertinusSerif-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibertinusSerif';
+  src: url('/assets/fonts/LibertinusSerif-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibertinusSerif';
+  src: url('/assets/fonts/LibertinusSerif-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibertinusSerif';
+  src: url('/assets/fonts/LibertinusSerif-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
