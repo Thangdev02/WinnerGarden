@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/navigation"
+import { getAllProducts } from "../../services/productService"
 
 const PlantsRelated = ({ currentPlant }) => {
   const { id } = useParams()
@@ -15,8 +16,7 @@ const PlantsRelated = ({ currentPlant }) => {
   useEffect(() => {
     const fetchPlants = async () => {
       try {
-        const res = await axios.get("https://winnergarden.onrender.com/api/plants")
-        const allPlants = res.data
+        const allPlants = await getAllProducts()
 
         if (currentPlant?.tags?.length > 0) {
           const related = allPlants.filter(
@@ -27,20 +27,21 @@ const PlantsRelated = ({ currentPlant }) => {
           setRelatedPlants(related)
         }
       } catch (error) {
-        console.error("Error fetching related plants:", error)
+        console.error("❌ Lỗi fetch related plants:", error)
       }
     }
+
     fetchPlants()
   }, [id, currentPlant])
 
   if (relatedPlants.length === 0) {
-    return <p className="text-gray-400 mt-8">No related products found.</p>
+    return <p className="text-gray-400 mt-8">Không có sản phẩm liên quan.</p>
   }
 
   return (
     <section className="mt-12 py-8">
       <h3 className="text-2xl font-semibold text-gray-100 mb-6">
-        Related Products
+      Sản phẩm liên quan
       </h3>
       <Swiper
         modules={[Navigation]}
@@ -77,7 +78,7 @@ const PlantsRelated = ({ currentPlant }) => {
                 to={`/plants/${plant.id}`}
                 className="text-blue-400 hover:underline mt-2 inline-block"
               >
-                View Detail
+                Xem cây
               </Link>
             </div>
           </SwiperSlide>

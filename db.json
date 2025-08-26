@@ -13,18 +13,27 @@
       "rating": 4.8,
       "ratingCount": 245,
       "ratingBreakdown": {
-        "5": 180,
-        "4": 40,
-        "3": 15,
+        "1": 5,
         "2": 5,
-        "1": 5
+        "3": 15,
+        "4": 40,
+        "5": 180
       },
       "price": 300000,
       "originalPrice": 400000,
       "stockStatus": "In Stock",
-      "sizes": ["30 ml", "60 ml", "80 ml", "100 ml"],
+      "sizes": [
+        "30 ml",
+        "60 ml",
+        "80 ml",
+        "100 ml"
+      ],
       "sku": "PLANT-MONSTERA-001",
-      "tags": ["Cây trong nhà", "Trang trí", "Monstera"],
+      "tags": [
+        "Cây trong nhà",
+        "Trang trí",
+        "Monstera"
+      ],
       "description": "Loại cây cảnh phổ biến với lá xẻ độc đáo, dễ chăm sóc, phù hợp cho mọi không gian.",
       "reviews": [
         {
@@ -42,7 +51,7 @@
       ]
     },
     {
-      "id":"2",
+      "id": "2",
       "name": "Monstera Thai Constellation",
       "image": "https://cdn.shopify.com/s/files/1/0558/1130/9591/files/feey-Ir5ssk4dSvs-unsplash-2.jpg?v=1696073963",
       "thumbnails": [
@@ -54,20 +63,29 @@
       "rating": 4.8,
       "ratingCount": 245,
       "ratingBreakdown": {
-        "5": 180,
-        "4": 40,
-        "3": 15,
+        "1": 5,
         "2": 5,
-        "1": 5
+        "3": 15,
+        "4": 40,
+        "5": 180
       },
       "price": 450000,
       "originalPrice": 600000,
       "stockStatus": "In Stock",
-      "sizes": ["30 ml", "60 ml", "80 ml", "100 ml"],
+      "sizes": [
+        "30 ml",
+        "60 ml",
+        "80 ml",
+        "100 ml"
+      ],
       "sku": "PLANT-MONSTERA-001",
-      "tags": ["Cây trong nhà", "Trang trí", "Monstera"],
-        "description": "Monstera Thai Constellation – nữ hoàng của các loài Monstera với những vệt đốm kem trắng tựa bầu trời ngàn sao? Giờ đây, việc chăm sóc “siêu phẩm” này trở nên dễ dàng hơn bao giờ hết với phiên bản thủy sinh độc đáo!\n\n🌿 Ý nghĩa phong thủy cây Monstera Thai Constellation thủy canh:\n- Thu hút tài lộc, thịnh vượng: Lá to, đốm sáng và yếu tố nước tượng trưng cho tiền tài, sung túc.\n- Mang lại may mắn, cơ hội: Lá xẻ độc đáo và sự quý hiếm thu hút vận may, cơ hội phát triển.\n- Tượng trưng sức khỏe, trường thọ: Cây xanh tốt đại diện cho sức sống dồi dào.\n- Đem lại sự sang trọng, độc đáo: Vẻ đẹp lạ mắt làm tăng giá trị thẩm mỹ và sự sang trọng cho không gian.\n\n🔮 Xét về mặt phong thủy Ngũ Hành:\n- Mệnh Mộc: Cây là Mộc, lại được Thủy nuôi dưỡng (Thủy sinh Mộc) nên rất tốt.\n- Mệnh Thủy: Trồng trong nước là Thủy, hành Kim (đốm lá) sinh Thủy, và Thủy nuôi Mộc nên rất hợp.\n- Mệnh Kim: Cũng khá phù hợp.",
-            "reviews": [
+      "tags": [
+        "Cây trong nhà",
+        "Trang trí",
+        "Monstera"
+      ],
+      "description": "Monstera Thai Constellation – nữ hoàng của các loài Monstera với những vệt đốm kem trắng tựa bầu trời ngàn sao? Giờ đây, việc chăm sóc “siêu phẩm” này trở nên dễ dàng hơn bao giờ hết với phiên bản thủy sinh độc đáo!\n\n🌿 Ý nghĩa phong thủy cây Monstera Thai Constellation thủy canh:\n- Thu hút tài lộc, thịnh vượng: Lá to, đốm sáng và yếu tố nước tượng trưng cho tiền tài, sung túc.\n- Mang lại may mắn, cơ hội: Lá xẻ độc đáo và sự quý hiếm thu hút vận may, cơ hội phát triển.\n- Tượng trưng sức khỏe, trường thọ: Cây xanh tốt đại diện cho sức sống dồi dào.\n- Đem lại sự sang trọng, độc đáo: Vẻ đẹp lạ mắt làm tăng giá trị thẩm mỹ và sự sang trọng cho không gian.\n\n🔮 Xét về mặt phong thủy Ngũ Hành:\n- Mệnh Mộc: Cây là Mộc, lại được Thủy nuôi dưỡng (Thủy sinh Mộc) nên rất tốt.\n- Mệnh Thủy: Trồng trong nước là Thủy, hành Kim (đốm lá) sinh Thủy, và Thủy nuôi Mộc nên rất hợp.\n- Mệnh Kim: Cũng khá phù hợp.",
+      "reviews": [
         {
           "id": 1,
           "user": "Linh Nguyen",
@@ -83,7 +101,7 @@
       ]
     },
     {
-      "id":"3",
+      "id": "3",
       "name": "Monstera Borsigiana Albo Variegated ",
       "image": "https://kla.vn/wp-content/uploads/2022/07/Kla.vn-Monstera-Deliciosa-Albo-Variegated-3.jpg",
       "thumbnails": [
@@ -95,20 +113,29 @@
       "rating": 4.8,
       "ratingCount": 245,
       "ratingBreakdown": {
-        "5": 180,
-        "4": 40,
-        "3": 15,
+        "1": 5,
         "2": 5,
-        "1": 5
+        "3": 15,
+        "4": 40,
+        "5": 180
       },
       "price": 590000,
       "originalPrice": 620000,
       "stockStatus": "In Stock",
-      "sizes": ["30 ml", "60 ml", "80 ml", "100 ml"],
+      "sizes": [
+        "30 ml",
+        "60 ml",
+        "80 ml",
+        "100 ml"
+      ],
       "sku": "PLANT-MONSTERA-001",
-      "tags": ["Cây trong nhà", "Trang trí", "Monstera"],
-        "description": "The Variegated Monstera Borsigiana Albo is a coveted plant which is grown by our experienced staff is sure to please. This is a rooted plant, not a cutting. With stunning white variegation this monstera can also produce half moon leaves. This plant is classified as high variegation.",
-            "reviews": [
+      "tags": [
+        "Cây trong nhà",
+        "Trang trí",
+        "Monstera"
+      ],
+      "description": "The Variegated Monstera Borsigiana Albo is a coveted plant which is grown by our experienced staff is sure to please. This is a rooted plant, not a cutting. With stunning white variegation this monstera can also produce half moon leaves. This plant is classified as high variegation.",
+      "reviews": [
         {
           "id": 1,
           "user": "Linh Nguyen",
@@ -124,7 +151,7 @@
       ]
     },
     {
-      "id":"4",
+      "id": "4",
       "name": "Monstera Aurea ",
       "image": "https://greenboog.com/wp-content/uploads/2023/02/Monstera-aurea-variegata.webp",
       "thumbnails": [
@@ -136,20 +163,29 @@
       "rating": 4.8,
       "ratingCount": 245,
       "ratingBreakdown": {
-        "5": 180,
-        "4": 40,
-        "3": 15,
+        "1": 5,
         "2": 5,
-        "1": 5
+        "3": 15,
+        "4": 40,
+        "5": 180
       },
       "price": 230000,
       "originalPrice": 320000,
       "stockStatus": "In Stock",
-      "sizes": ["30 ml", "60 ml", "80 ml", "100 ml"],
+      "sizes": [
+        "30 ml",
+        "60 ml",
+        "80 ml",
+        "100 ml"
+      ],
       "sku": "PLANT-MONSTERA-001",
-      "tags": ["Cây trong nhà", "Trang trí", "Monstera"],
-        "description": "Monstera Aurea, also known as Monstera Marmorata, is a variegated cultivar of the classic variegated Monstera deliciosa. It, basically, is a more stunning variety of the popular Monstera deliciosa plant. The lemon and lime, and dark-green variegation occur in a similar pattern to what you’d expect to find on Monstera Albo, with blocks and splashes of variegation and some leaves that are solidly half and half. This is also called the half-moon variegation. Its leaves are a glorious, devastatingly perfect split; one emerald green, the other a yellowish",
-            "reviews": [
+      "tags": [
+        "Cây trong nhà",
+        "Trang trí",
+        "Monstera"
+      ],
+      "description": "Monstera Aurea, also known as Monstera Marmorata, is a variegated cultivar of the classic variegated Monstera deliciosa. It, basically, is a more stunning variety of the popular Monstera deliciosa plant. The lemon and lime, and dark-green variegation occur in a similar pattern to what you’d expect to find on Monstera Albo, with blocks and splashes of variegation and some leaves that are solidly half and half. This is also called the half-moon variegation. Its leaves are a glorious, devastatingly perfect split; one emerald green, the other a yellowish",
+      "reviews": [
         {
           "id": 1,
           "user": "Linh Nguyen",
@@ -165,7 +201,7 @@
       ]
     },
     {
-      "id":"5",
+      "id": "5",
       "name": "Monstera Mint Variegated ",
       "image": "https://kla.vn/wp-content/uploads/2022/06/Kla.vn-Monstera-Delisiosa-Mint-2.jpg",
       "thumbnails": [
@@ -177,20 +213,29 @@
       "rating": 4.8,
       "ratingCount": 245,
       "ratingBreakdown": {
-        "5": 180,
-        "4": 40,
-        "3": 15,
+        "1": 5,
         "2": 5,
-        "1": 5
+        "3": 15,
+        "4": 40,
+        "5": 180
       },
       "price": 2230000,
       "originalPrice": 3220000,
       "stockStatus": "In Stock",
-      "sizes": ["30 ml", "60 ml", "80 ml", "100 ml"],
+      "sizes": [
+        "30 ml",
+        "60 ml",
+        "80 ml",
+        "100 ml"
+      ],
       "sku": "PLANT-MONSTERA-001",
-      "tags": ["Cây trong nhà", "Trang trí", "Monstera"],
-        "description": "Monstera Aurea, also known as Monstera Marmorata, is a variegated cultivar of the classic variegated Monstera deliciosa. It, basically, is a more stunning variety of the popular Monstera deliciosa plant. The lemon and lime, and dark-green variegation occur in a similar pattern to what you’d expect to find on Monstera Albo, with blocks and splashes of variegation and some leaves that are solidly half and half. This is also called the half-moon variegation. Its leaves are a glorious, devastatingly perfect split; one emerald green, the other a yellowish",
-            "reviews": [
+      "tags": [
+        "Cây trong nhà",
+        "Trang trí",
+        "Monstera"
+      ],
+      "description": "Monstera Aurea, also known as Monstera Marmorata, is a variegated cultivar of the classic variegated Monstera deliciosa. It, basically, is a more stunning variety of the popular Monstera deliciosa plant. The lemon and lime, and dark-green variegation occur in a similar pattern to what you’d expect to find on Monstera Albo, with blocks and splashes of variegation and some leaves that are solidly half and half. This is also called the half-moon variegation. Its leaves are a glorious, devastatingly perfect split; one emerald green, the other a yellowish",
+      "reviews": [
         {
           "id": 1,
           "user": "Linh Nguyen",
@@ -206,7 +251,7 @@
       ]
     },
     {
-      "id":"6",
+      "id": "6",
       "name": " Anthurium Red Crystallinum ",
       "image": "https://www.harmony-plants.com/cdn/shop/files/905BC1F8-91D2-4BDC-9807-4039888D3B0B.jpg?v=1741884789",
       "thumbnails": [
@@ -218,20 +263,29 @@
       "rating": 4.8,
       "ratingCount": 245,
       "ratingBreakdown": {
-        "5": 180,
-        "4": 40,
-        "3": 15,
+        "1": 5,
         "2": 5,
-        "1": 5
+        "3": 15,
+        "4": 40,
+        "5": 180
       },
       "price": 1330000,
       "originalPrice": 2220000,
       "stockStatus": "In Stock",
-      "sizes": ["30 ml", "60 ml", "80 ml", "100 ml"],
+      "sizes": [
+        "30 ml",
+        "60 ml",
+        "80 ml",
+        "100 ml"
+      ],
       "sku": "PLANT-ANTHURIUM-001",
-      "tags": ["Cây trong nhà", "Trang trí", "Anthurium"],
-        "description": "Monstera Aurea, also known as Monstera Marmorata, is a variegated cultivar of the classic variegated Monstera deliciosa. It, basically, is a more stunning variety of the popular Monstera deliciosa plant. The lemon and lime, and dark-green variegation occur in a similar pattern to what you’d expect to find on Monstera Albo, with blocks and splashes of variegation and some leaves that are solidly half and half. This is also called the half-moon variegation. Its leaves are a glorious, devastatingly perfect split; one emerald green, the other a yellowish",
-            "reviews": [
+      "tags": [
+        "Cây trong nhà",
+        "Trang trí",
+        "Anthurium"
+      ],
+      "description": "Monstera Aurea, also known as Monstera Marmorata, is a variegated cultivar of the classic variegated Monstera deliciosa. It, basically, is a more stunning variety of the popular Monstera deliciosa plant. The lemon and lime, and dark-green variegation occur in a similar pattern to what you’d expect to find on Monstera Albo, with blocks and splashes of variegation and some leaves that are solidly half and half. This is also called the half-moon variegation. Its leaves are a glorious, devastatingly perfect split; one emerald green, the other a yellowish",
+      "reviews": [
         {
           "id": 1,
           "user": "Linh Nguyen",
@@ -245,6 +299,33 @@
           "comment": "Giao hàng hơi chậm nhưng cây rất ưng ý."
         }
       ]
+    }
+  ],
+  "users": [
+    {
+      "name": "Thắng Lê",
+      "email": "test@example.com",
+      "phone": "0123456789",
+      "address": "123 Main St, Anytown, USA",
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+      "orders": [
+        {
+          "id": 1,
+          "products": [
+            {
+              "id": 1,
+              "name": "Monstera Delisiosa",
+              "image": "https://kla.vn/wp-content/uploads/2022/06/Kla.vn-Monstera-Delisiosa-Mint-1.jpg",
+              "price": 2230000,
+              "quantity": 2
+            }
+          ],
+          "total": 4460000,
+          "status": "Pending"
+        }
+      ],
+      "password": "123456",
+      "id": "1"
     }
   ]
 }

@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 import { Link } from "react-router-dom"
+import { getAllProducts } from "../../services/productService"
 
 const ProductList = () => {
   const [plants, setPlants] = useState([])
@@ -12,18 +13,17 @@ const ProductList = () => {
 
   // Filter state
   const [selectedTag, setSelectedTag] = useState("")
-  const [priceRange, setPriceRange] = useState([0, 10000000]) // mặc định 0 -> 10tr
+  const [priceRange, setPriceRange] = useState([0, 10000000])
   const [rating, setRating] = useState(0)
 
   useEffect(() => {
     const fetchPlants = async () => {
       try {
-        const response = await axios.get("https://winnergarden.onrender.com/api/plants")
-        setPlants(response.data)
-        setFilteredPlants(response.data)
+        const data = await getAllProducts()
+        setPlants(data)
+        setFilteredPlants(data)
       } catch (err) {
-        setError("Không thể tải cây cảnh. Vui lòng đảm bảo json-server đang chạy.")
-        console.error(err)
+        setError("Không thể tải cây cảnh. Vui lòng đảm bảo API đang chạy.")
       } finally {
         setLoading(false)
       }
