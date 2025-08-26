@@ -715,6 +715,24 @@
       ],
       "password": "123456",
       "id": "1"
+    },
+    {
+      "id": "b51b",
+      "name": "Thangle ",
+      "email": "lequocthangvvk@gmail.com",
+      "password": "123123",
+      "phone": "",
+      "address": "",
+      "orders": []
+    },
+    {
+      "id": "nGGzNhbHWmdoV9fMqmpttFakpH13",
+      "name": "Thang Le",
+      "email": "thanglqce160451@fpt.edu.vn",
+      "password": "123123",
+      "phone": "",
+      "address": "",
+      "orders": []
     }
   ]
 }

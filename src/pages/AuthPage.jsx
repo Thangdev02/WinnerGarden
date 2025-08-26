@@ -4,6 +4,8 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { getUsers, registerUser } from "../services/authService"
 import Cookies from "js-cookie"
+import { auth, signInWithGoogle } from "../../firebase"
+import { createUserWithEmailAndPassword, sendEmailVerification } from "firebase/auth"
 
 const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
   const [isLogin, setIsLogin] = useState(true)
@@ -18,7 +20,7 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  // Xử lý Login
+  // Xử lý Login thường
   const handleLogin = async (e) => {
     e.preventDefault()
     try {
@@ -45,18 +47,33 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
   }
 
   // Xử lý Register
-  const handleRegister = async (e) => {
+  // Xử lý Register
+const handleRegister = async (e) => {
     e.preventDefault()
     try {
+      // ✅ Tạo user trong Firebase
+      const userCredential = await createUserWithEmailAndPassword(
+        auth,
+        formData.email,
+        formData.password
+      )
+      const user = userCredential.user
+  
+      // ✅ Gửi email xác thực
+      await sendEmailVerification(user)
+  
+      // ✅ Lưu thêm vào db.json
       const newUser = {
+        id: user.uid, // lấy UID của Firebase làm id
         name: formData.name,
         email: formData.email,
-        password: formData.password,
+        password: formData.password, // ⚠️ không an toàn (nên hash hoặc bỏ đi)
         phone: "",
         address: "",
-        orders: [],
+        orders: []
       }
-      await registerUser(newUser)
+      await registerUser(newUser) // POST vào JSON Server
+  
       Cookies.set("user", JSON.stringify(newUser), { expires: 7 })
       setSuccess(true)
       setTimeout(() => {
@@ -65,7 +82,33 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
         onClose()
       }, 2000)
     } catch (err) {
-      setError("Lỗi server khi đăng ký!")
+      setError("Lỗi khi đăng ký tài khoản Firebase!")
+      console.error(err)
+    }
+  }
+  
+
+  // ✅ Xử lý Login Google
+  const handleGoogleLogin = async () => {
+    try {
+      const user = await signInWithGoogle()
+      const newUser = {
+        name: user.displayName,
+        email: user.email,
+        avatar: user.photoURL,
+        phone: "",
+        address: "",
+        orders: [],
+      }
+      Cookies.set("user", JSON.stringify(newUser), { expires: 7 })
+      setSuccess(true)
+      setTimeout(() => {
+        setSuccess(false)
+        onLoginSuccess(newUser)
+        onClose()
+      }, 2000)
+    } catch (err) {
+      setError("Lỗi đăng nhập Google!")
       console.error(err)
     }
   }
@@ -96,7 +139,7 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
               ✕
             </button>
 
-            {/* === Background Image with Animation === */}
+            {/* === Background Image === */}
             <AnimatePresence mode="wait">
               <motion.div
                 initial={{ x: "0%" }}
@@ -120,6 +163,7 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
                   exit={{ x: "100%", opacity: 0 }}
                   transition={{ duration: 1.2, ease: "easeInOut" }}
                   className="absolute inset-y-0 left-0 w-1/2 bg-black/90 p-12 flex flex-col justify-center z-10 text-white"
+                  style={{fontFamily: "LibertinusSerif"}}
                 >
                   <h2 className="text-3xl font-bold mb-6">Đăng nhập</h2>
                   <form className="space-y-4" onSubmit={handleLogin}>
@@ -140,18 +184,22 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
                       className="w-full p-3 rounded bg-transparent border border-green-600 focus:outline-none"
                     />
                     {error && <p className="text-red-500 text-sm">{error}</p>}
-                    <button type="submit" className="relative w-full py-3 rounded-lg overflow-hidden group">
-                      <div
-                        className="absolute inset-0 bg-cover bg-center"
-                        style={{
-                          backgroundImage:
-                            "url('https://t4.ftcdn.net/jpg/06/35/30/49/360_F_635304942_9QK2FiRYpk7FbCFxS1NR2heuFzwST7jD.jpg')",
-                        }}
-                      ></div>
-                      <div className="absolute inset-0 bg-black opacity-20 group-hover:opacity-40 transition"></div>
-                      <span className="relative text-white font-semibold">Đăng nhập</span>
+                    <button type="submit" className="w-full py-3 bg-green-600 rounded-lg font-semibold hover:bg-green-700">
+                      Đăng nhập
                     </button>
                   </form>
+
+                  {/* ✅ Nút Login Google */}
+                  <button
+                    onClick={handleGoogleLogin}
+                    className="mt-4 w-full py-3  rounded-lg font-semibold hover:bg-white hover:text-yellow-400"
+                    style={{display: "flex", alignItems: "center", justifyContent: "center",gap:'0.5rem', background:'url("https://www.epicgardening.com/wp-content/uploads/2023/09/bunch-of-Anthurium-crystallinum.jpeg', backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}
+                  >
+                    Đăng nhập bằng 
+                    <img style={{width: "30px", height: "30px"}} src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"/>
+
+                  </button>
+
                   <p className="mt-6 text-center text-gray-400">
                     Chưa có tài khoản?{" "}
                     <button onClick={() => setIsLogin(false)} className="text-green-400 hover:underline">
@@ -167,6 +215,8 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
                   exit={{ x: "-100%", opacity: 0 }}
                   transition={{ duration: 1.2, ease: "easeInOut" }}
                   className="absolute inset-y-0 right-0 w-1/2 bg-black/90 p-12 flex flex-col justify-center z-10 text-white"
+                  style={{fontFamily: "LibertinusSerif"}}
+
                 >
                   <h2 className="text-3xl font-bold mb-6">Đăng ký</h2>
                   <form className="space-y-4" onSubmit={handleRegister}>
@@ -195,16 +245,8 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
                       className="w-full p-3 rounded bg-transparent border border-green-600 focus:outline-none"
                     />
                     {error && <p className="text-red-500 text-sm">{error}</p>}
-                    <button type="submit" className="relative w-full py-3 rounded-lg overflow-hidden group">
-                      <div
-                        className="absolute inset-0 bg-cover bg-center"
-                        style={{
-                          backgroundImage:
-                            "url('https://freerangestock.com/sample/179070/dense-green-monstera-leaves-plant-foliage-creating-lush-background.jpg')",
-                        }}
-                      ></div>
-                      <div className="absolute inset-0 bg-black opacity-20 group-hover:opacity-40 transition"></div>
-                      <span className="relative text-white font-semibold">Đăng ký</span>
+                    <button type="submit" className="w-full py-3 bg-green-600 rounded-lg font-semibold hover:bg-green-700">
+                      Đăng ký
                     </button>
                   </form>
                   <p className="mt-6 text-center text-gray-400">
