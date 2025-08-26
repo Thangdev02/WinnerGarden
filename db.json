@@ -299,6 +299,395 @@
           "comment": "Giao hàng hơi chậm nhưng cây rất ưng ý."
         }
       ]
+    },
+    {
+      "id": "7",
+      "name": "Philodendron Pink Princess",
+      "image": "https://tropicflow.com/cdn/shop/files/Variegated_Philodendron_Pink_Princess_Mature_Plant.jpg?v=1721113209&width=1445",
+      "thumbnails": [
+        "https://kla.vn/wp-content/uploads/2022/03/philodendron-pink-princess-KLA-4.jpg",
+        "https://kla.vn/wp-content/uploads/2022/03/philodendron-pink-princess-KLA-3.jpg",
+        "https://kla.vn/wp-content/uploads/2022/03/philodendron-pink-princess-KLA-5.jpg",
+        "https://tropicflow.com/cdn/shop/files/Variegated_Philodendron_Pink_Princess_Mature_Plant.jpg?v=1721113209&width=1445"
+      ],
+      "rating": 4.7,
+      "ratingCount": 180,
+      "ratingBreakdown": {
+        "1": 4,
+        "2": 6,
+        "3": 10,
+        "4": 30,
+        "5": 130
+      },
+      "price": 1800000,
+      "originalPrice": 2500000,
+      "stockStatus": "In Stock",
+      "sizes": [
+        "Small (20 cm)",
+        "Medium (40 cm)",
+        "Large (60 cm)"
+      ],
+      "sku": "PLANT-PHILODENDRON-001",
+      "tags": [
+        "Cây trong nhà",
+        "Kiểng lá",
+        "Philodendron"
+      ],
+      "description": "Philodendron Pink Princess là một loại cây kiểng lá nổi bật với những chiếc lá xanh đậm xen kẽ các mảng màu hồng phấn độc đáo. Loại cây này rất được ưa chuộng nhờ vẻ đẹp sang trọng và khả năng thích nghi tốt trong môi trường trong nhà. Cây mang ý nghĩa phong thủy về sự thịnh vượng và may mắn, phù hợp với người mệnh Hỏa và Mộc.",
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Mai Anh",
+          "rating": 5,
+          "comment": "Cây đẹp lung linh, màu hồng rất nổi bật, rất hài lòng!"
+        },
+        {
+          "id": 2,
+          "user": "Phong Lê",
+          "rating": 4,
+          "comment": "Cây khỏe, nhưng giao hàng hơi lâu một chút."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Aglaonema Red Valentine",
+      "image": "https://serreslavoie.com/cdn/shop/products/image_53022039-132b-4223-a6ad-f43e396748f3.jpg?v=1677092672&width=480",
+      "thumbnails": [
+        "https://lalitenterprise.com/cdn/shop/files/Untitleddesign-2023-11-04T164202.655.webp?v=1699096946",
+        "https://www.thegrowcentre.com.au/cdn/shop/products/ladyvalentinetopview_2000x.jpg?v=1659417140",
+        "https://shop.sheridannurseries.com/cdn/shop/products/F7717-1024-1024-01_2000x.jpg?v=1704492942",
+        "https://serreslavoie.com/cdn/shop/products/image_53022039-132b-4223-a6ad-f43e396748f3.jpg?v=1677092672&width=480"
+      ],
+      "rating": 4.6,
+      "ratingCount": 150,
+      "ratingBreakdown": {
+        "1": 3,
+        "2": 5,
+        "3": 12,
+        "4": 35,
+        "5": 95
+      },
+      "price": 450000,
+      "originalPrice": 600000,
+      "stockStatus": "In Stock",
+      "sizes": [
+        "Small (25 cm)",
+        "Medium (50 cm)",
+        "Large (70 cm)"
+      ],
+      "sku": "PLANT-AGLAONEMA-001",
+      "tags": [
+        "Cây trong nhà",
+        "Trang trí",
+        "Aglaonema"
+      ],
+      "description": "Aglaonema Red Valentine là một loại cây kiểng lá với màu sắc nổi bật, kết hợp giữa xanh lá và đỏ hồng, tạo nên vẻ đẹp rực rỡ. Cây dễ chăm sóc, chịu được ánh sáng yếu, phù hợp cho không gian văn phòng hoặc nhà ở. Theo phong thủy, cây mang lại năng lượng tích cực và sự hài hòa.",
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Hương Trần",
+          "rating": 5,
+          "comment": "Cây rất đẹp, màu sắc tươi tắn, đặt trong phòng khách rất hợp."
+        },
+        {
+          "id": 2,
+          "user": "Minh Nguyễn",
+          "rating": 4,
+          "comment": "Cây đẹp nhưng cần hướng dẫn chăm sóc chi tiết hơn."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Calathea Orbifolia",
+      "image": "https://kla.vn/wp-content/uploads/2025/01/Calathea-orbifolia-1-1.jpg",
+      "thumbnails": [
+        "https://i.shgcdn.com/176119d0-9c32-4cd1-9d53-c70e0118badb/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5E_zO4pUCREURv8NM48960b3ziqhWfiQ0vZQc4aeCNJoC1vkHIV0m8OfZEwU3suPzX-U&usqp=CAU",
+        "https://www.bambooland.com.au/assets/full/CALORB.jpg?20221223115445",
+        "https://kla.vn/wp-content/uploads/2025/01/Calathea-orbifolia-1-1.jpg"
+      ],
+      "rating": 4.5,
+      "ratingCount": 200,
+      "ratingBreakdown": {
+        "1": 5,
+        "2": 8,
+        "3": 15,
+        "4": 42,
+        "5": 130
+      },
+      "price": 650000,
+      "originalPrice": 800000,
+      "stockStatus": "In Stock",
+      "sizes": [
+        "Small (30 cm)",
+        "Medium (50 cm)",
+        "Large (80 cm)"
+      ],
+      "sku": "PLANT-CALATHEA-001",
+      "tags": [
+        "Cây trong nhà",
+        "Kiểng lá",
+        "Calathea"
+      ],
+      "description": "Calathea Orbifolia nổi bật với những chiếc lá tròn lớn, có các sọc bạc xen kẽ trên nền xanh đậm, tạo nên vẻ đẹp thanh lịch. Cây thích hợp với môi trường có độ ẩm cao và ánh sáng gián tiếp, là lựa chọn lý tưởng để trang trí không gian sống hiện đại.",
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Lan Anh",
+          "rating": 5,
+          "comment": "Lá cây rất đẹp, nhìn như một tác phẩm nghệ thuật!"
+        },
+        {
+          "id": 2,
+          "user": "Đức Phạm",
+          "rating": 3,
+          "comment": "Cây đẹp nhưng cần chú ý tưới nước đều đặn."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Syngonium Pink Splash",
+      "image": "https://kla.vn/wp-content/uploads/2022/03/syngonium_pink_splash-KLA-3.jpg",
+      "thumbnails": [
+        "https://thornandpetal.ca/cdn/shop/files/2B23675E-2963-4835-95D7-B939E3581D24.jpg?v=1723773512&width=1946",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZ4XdncCxp2e83q6TTVRVXKCuaDGcXjKP8Q&s",
+        "https://www.ormbunker.se/cdn/shop/files/syngoniumpinksplash.jpg?v=1734282563&width=1946",
+        "https://kla.vn/wp-content/uploads/2022/03/syngonium_pink_splash-KLA-3.jpg"
+      ],
+      "rating": 4.8,
+      "ratingCount": 170,
+      "ratingBreakdown": {
+        "1": 2,
+        "2": 4,
+        "3": 10,
+        "4": 34,
+        "5": 120
+      },
+      "price": 350000,
+      "originalPrice": 500000,
+      "stockStatus": "In Stock",
+      "sizes": [
+        "Small (20 cm)",
+        "Medium (40 cm)",
+        "Large (60 cm)"
+      ],
+      "sku": "PLANT-SYNGONIUM-001",
+      "tags": [
+        "Cây trong nhà",
+        "Trang trí",
+        "Syngonium"
+      ],
+      "description": "Syngonium Pink Splash là một loại cây kiểng lá với các mảng màu hồng phấn xen kẽ trên lá xanh, tạo nên vẻ đẹp độc đáo và hiện đại. Cây dễ chăm sóc, thích hợp cho người mới bắt đầu chơi cây, mang ý nghĩa phong thủy về sự phát triển và đổi mới.",
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Thảo Nguyễn",
+          "rating": 5,
+          "comment": "Cây nhỏ xinh, màu hồng rất dễ thương, đặt bàn làm việc rất hợp."
+        },
+        {
+          "id": 2,
+          "user": "Vũ Hoàng",
+          "rating": 4,
+          "comment": "Cây đẹp, nhưng cần ánh sáng tốt để giữ màu hồng."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Alocasia Black Velvet",
+      "image": "https://www.plantvault.com/cdn/shop/articles/Alocasia_Black_Velvet_Houseplant.jpg?v=1697146921",
+      "thumbnails": [
+        "https://preview.redd.it/ys7de528jvv81.jpg?width=640&crop=smart&auto=webp&s=c77fd075b1d7b59ffc7b540567b85b466c6e690b",
+        "https://www.planetnatural.com/wp-content/uploads/2023/01/Alocasia-Reginula-Black-Velvet.jpg",
+        "https://www.happyhouseplants.co.uk/cdn/shop/products/98bb8d_1bb19181fc2a44c796f16ca35f83f02e_mv2_1400x.jpg?v=1708977712",
+        "https://www.plantvault.com/cdn/shop/articles/Alocasia_Black_Velvet_Houseplant.jpg?v=1697146921"
+      ],
+      "rating": 4.6,
+      "ratingCount": 190,
+      "ratingBreakdown": {
+        "1": 4,
+        "2": 6,
+        "3": 12,
+        "4": 38,
+        "5": 130
+      },
+      "price": 550000,
+      "originalPrice": 700000,
+      "stockStatus": "In Stock",
+      "sizes": [
+        "Small (25 cm)",
+        "Medium (45 cm)",
+        "Large (65 cm)"
+      ],
+      "sku": "PLANT-ALOCASIA-001",
+      "tags": [
+        "Cây trong nhà",
+        "Kiểng lá",
+        "Alocasia"
+      ],
+      "description": "Alocasia Black Velvet nổi bật với những chiếc lá màu xanh đậm gần như đen, có kết cấu nhung mịn và các đường gân trắng tương phản. Cây mang vẻ đẹp bí ẩn, sang trọng, phù hợp với không gian hiện đại và người mệnh Thủy hoặc Mộc.",
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Ngọc Hà",
+          "rating": 5,
+          "comment": "Cây đẹp, lá nhung rất lạ mắt, rất đáng mua!"
+        },
+        {
+          "id": 2,
+          "user": "Tùng Lê",
+          "rating": 4,
+          "comment": "Cây khỏe, nhưng cần chú ý độ ẩm để lá đẹp."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Epipremnum Aureum",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Epipremnum_aureum_31082012.jpg",
+      "thumbnails": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9d/Epipremnum_aureum_31082012.jpg"
+      ],
+      "rating": 4.9,
+      "ratingCount": 220,
+      "ratingBreakdown": {
+        "1": 2,
+        "2": 3,
+        "3": 10,
+        "4": 35,
+        "5": 170
+      },
+      "price": 250000,
+      "originalPrice": 350000,
+      "stockStatus": "In Stock",
+      "sizes": [
+        "Small (20 cm)",
+        "Medium (40 cm)",
+        "Large (60 cm)"
+      ],
+      "sku": "PLANT-POTHOS-001",
+      "tags": [
+        "Cây trong nhà",
+        "Trang trí",
+        "Pothos"
+      ],
+      "description": "Pothos Marble Queen là một loại cây dây leo với lá xanh xen kẽ các mảng trắng kem, dễ chăm sóc và phát triển nhanh. Cây phù hợp để treo hoặc đặt trên kệ, mang lại sự tươi mới cho không gian. Theo phong thủy, cây tượng trưng cho sự phát triển và thịnh vượng.",
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Linh Đỗ",
+          "rating": 5,
+          "comment": "Cây dễ chăm, lá đẹp, đặt trong phòng ngủ rất hợp."
+        },
+        {
+          "id": 2,
+          "user": "Nam Trần",
+          "rating": 4,
+          "comment": "Cây đẹp, nhưng cần ánh sáng để giữ màu lá."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Anthurium Clarinervium",
+      "image": "https://product.hstatic.net/200000630767/product/anthuriumclarivernium_02eca9f21c8f4b42a568ee79ea9ae5c9.jpg",
+      "thumbnails": [
+        "https://growtropicals.com/cdn/shop/files/gt-21_71454cc4-f0b2-42a4-a257-c997b72db76c.jpg?v=1697814402&width=1080",
+        "https://kla.vn/wp-content/uploads/2022/04/anthurium-clarinervium-3.jpg",
+        "https://product.hstatic.net/200000630767/product/anthuriumclarivernium_02eca9f21c8f4b42a568ee79ea9ae5c9.jpg",
+        "https://i.etsystatic.com/51386736/r/il/e6cd61/6352832928/il_1080xN.6352832928_7zbe.jpg"
+      ],
+      "rating": 4.7,
+      "ratingCount": 160,
+      "ratingBreakdown": {
+        "1": 3,
+        "2": 5,
+        "3": 10,
+        "4": 32,
+        "5": 110
+      },
+      "price": 950000,
+      "originalPrice": 1200000,
+      "stockStatus": "In Stock",
+      "sizes": [
+        "Small (25 cm)",
+        "Medium (45 cm)",
+        "Large (65 cm)"
+      ],
+      "sku": "PLANT-ANTHURIUM-002",
+      "tags": [
+        "Cây trong nhà",
+        "Kiểng lá",
+        "Anthurium"
+      ],
+      "description": "Anthurium Clarinervium có lá hình trái tim màu xanh đậm với các đường gân trắng nổi bật, tạo nên vẻ đẹp sang trọng và tinh tế. Cây thích hợp với ánh sáng gián tiếp và độ ẩm cao, là lựa chọn hoàn hảo cho không gian nội thất hiện đại.",
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Hà Nguyễn",
+          "rating": 5,
+          "comment": "Cây rất đẹp, lá cứng cáp, đóng gói kỹ lưỡng."
+        },
+        {
+          "id": 2,
+          "user": "Khoa Trần",
+          "rating": 4,
+          "comment": "Cây đẹp, nhưng cần chú ý tưới nước đúng cách."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Anthurium Warocqueanum",
+      "image": "https://www.carnivero.com/cdn/shop/products/IMG_7392.jpg?v=1636488754&width=1445",
+      "thumbnails": [
+        "https://www.picturethisai.com/wiki-image/1080/350734390976249856.jpeg",
+        "https://growtropicals.com/cdn/shop/files/waroc-1-2.jpg?v=1729269935&width=1080",
+        "https://thursd.com/storage/media/22983/thursd-wide-feature-the-magnificent-queen-anthurium-warocqueanum.jpg",
+        "https://www.carnivero.com/cdn/shop/products/IMG_7392.jpg?v=1636488754&width=1445"
+      ],
+      "rating": 4.8,
+      "ratingCount": 200,
+      "ratingBreakdown": {
+        "1": 3,
+        "2": 5,
+        "3": 10,
+        "4": 32,
+        "5": 150
+      },
+      "price": 2800000,
+      "originalPrice": 3500000,
+      "stockStatus": "In Stock",
+      "sizes": [
+        "Small (30 cm)",
+        "Medium (60 cm)",
+        "Large (90 cm)"
+      ],
+      "sku": "PLANT-ANTHURIUM-003",
+      "tags": [
+        "Cây trong nhà",
+        "Kiểng lá",
+        "Anthurium"
+      ],
+      "description": "Anthurium Warocqueanum, thường được gọi là 'Nữ hoàng Anthurium', nổi bật với những chiếc lá dài, nhung mịn màu xanh đậm và các đường gân trắng nổi bật. Cây này là một lựa chọn cao cấp cho các nhà sưu tầm cây cảnh, mang lại vẻ đẹp sang trọng và bí ẩn. Cây cần độ ẩm cao và ánh sáng gián tiếp để phát triển tốt, phù hợp với người mệnh Thủy và Mộc.",
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Mai Trần",
+          "rating": 5,
+          "comment": "Cây tuyệt đẹp, lá nhung rất sang trọng, đáng giá từng đồng."
+        },
+        {
+          "id": 2,
+          "user": "Hùng Nguyễn",
+          "rating": 4,
+          "comment": "Cây đẹp nhưng cần chăm sóc cẩn thận, đóng gói tốt."
+        }
+      ]
     }
   ],
   "users": [
